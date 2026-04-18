@@ -3,46 +3,60 @@ CopyEnhancedCodeT5: Pointer-Generator Network for Bugs2Fix Task
 Integrates copy mechanism with CodeT5 base model
 """
 
+import os
 import torch
 import torch.nn as nn
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, AddedToken
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+
+
+# Load HF_TOKEN from .env file
+def load_hf_token(env_file=".env"):
+    """Load HF_TOKEN from .env file and set environment variable"""
+    if os.path.exists(env_file):
+        with open(env_file, "r") as f:
+            for line in f:
+                if line.startswith("HF_TOKEN"):
+                    # Parse: HF_TOKEN = "token_value"
+                    token_value = line.split("=")[1].strip().strip('"')
+                    os.environ["HF_TOKEN"] = token_value
+                    print(f"[+] Loaded HF_TOKEN from {env_file}")
+                    return token_value
+    return None
+
+
+# Load token before importing/initializing models
+load_hf_token()
+
+# Disable HF hub conversion threads
+os.environ["HF_HUB_DISABLE_TELEMETRY"] = "1"
+os.environ["DISABLE_TELEMETRY"] = "1"
 
 
 class CopyEnhancedCodeT5(nn.Module):
     """
     T5 model with copy mechanism (pointer-generator network).
-    Loads Salesforce/codet5-large and adds pointer-generator network for improved compression.
+    Loads Salesforce/codet5-base and adds pointer-generator network for improved compression.
     """
     
-    def __init__(self, model_name="Salesforce/codet5-large"):
+    def __init__(self, model_name="Salesforce/codet5-base"):
         super().__init__()
         
-        # Load base CodeT5 model
+        os.environ["DISABLE_TELEMETRY"] = "1"
+        
         print(f"Loading model from {model_name}...")
-        self.model = AutoModelForSeq2SeqLM.from_pretrained(model_name, trust_remote_code=True)
-        self.tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
+        self.model = AutoModelForSeq2SeqLM.from_pretrained(
+            model_name, 
+            trust_remote_code=True,
+            use_safetensors=False
+        )
         
-        # Add special tokens for compression task
-        try:
-            special_tokens_dict = {
-                "additional_special_tokens": ["<BUGS2FIX>", "<Ratio>", "</Ratio>", "<Compress>", "</Compress>"]
-            }
-            num_added_toks = self.tokenizer.add_special_tokens(special_tokens_dict)
-            print(f"Added {num_added_toks} special tokens")
-            
-            # Resize model embeddings to account for new tokens
-            self.model.resize_token_embeddings(len(self.tokenizer))
-        except Exception as e:
-            print(f"Warning: Could not add special tokens: {e}")
+        # Model dimensions from model config
+        self.hidden_dim = self.model.config.d_model
+        self.vocab_size = self.model.config.vocab_size
         
-        # Model dimensions
-        self.hidden_dim = self.model.config.d_model  # 1024 for codet5-large
-        self.vocab_size = len(self.tokenizer)
-        
-        print(f"Model hidden_dim: {self.hidden_dim}, vocab_size: {self.vocab_size}")
+        print(f"[+] Model loaded: hidden_dim={self.hidden_dim}, vocab_size={self.vocab_size}")
         
         # Linear layer for generation probability gate (copy mechanism)
-        # W_gen maps [context_vector + decoder_hidden] to probability
         self.W_gen = nn.Linear(self.hidden_dim * 2, 1)
         
     def forward(self, input_ids, decoder_input_ids, attention_mask=None, decoder_attention_mask=None):
@@ -140,67 +154,32 @@ class CopyEnhancedCodeT5(nn.Module):
 if __name__ == "__main__":
     print("Loading CopyEnhancedCodeT5 (Salesforce/codet5-large)...")
     model = CopyEnhancedCodeT5()
+    model.eval()
     
-    # Sample code snippets for compression
-    buggy_code = """
-    public void processData(List<String> items) {
-        for (String item : items) {
-            System.out.println(item);
-            int length = item.length();
-        }
-    }
-    """
+    # Create dummy inputs
+    batch_size = 2
+    src_len = 20
+    tgt_len = 15
     
-    fixed_code = """
-    public void processData(List<String> items) {
-        for (String item : items) {
-            if (item != null) {
-                System.out.println(item);
-            }
-        }
-    }
-    """
+    input_ids = torch.randint(0, model.vocab_size, (batch_size, src_len))
+    decoder_input_ids = torch.randint(0, model.vocab_size, (batch_size, tgt_len))
     
-    # Tokenize
-    print("\nTokenizing input...")
-    inputs = model.tokenizer(
-        buggy_code,
-        return_tensors="pt",
-        padding=True,
-        truncation=True,
-        max_length=128
-    )
+    print(f"Input shape: {input_ids.shape}")
+    print(f"Decoder input shape: {decoder_input_ids.shape}")
     
-    decoder_inputs = model.tokenizer(
-        fixed_code,
-        return_tensors="pt",
-        padding=True,
-        truncation=True,
-        max_length=128
-    )
+    print("\n[+] Running forward pass...")
+    with torch.no_grad():
+        P_final = model(input_ids, decoder_input_ids)
     
-    print(f"Input shape: {inputs.input_ids.shape}")
-    print(f"Decoder input shape: {decoder_inputs.input_ids.shape}")
+    print(f"\n[+] Output P(y) shape: {P_final.shape}")
+    print(f"    Expected: [{batch_size}, {tgt_len}, {model.vocab_size}]")
+    print(f"    Match: {P_final.shape == (batch_size, tgt_len, model.vocab_size)}")
     
-    # Forward pass
-    print("\nRunning forward pass...")
-    P_final = model(
-        input_ids=inputs.input_ids,
-        decoder_input_ids=decoder_inputs.input_ids,
-        attention_mask=inputs.attention_mask,
-        decoder_attention_mask=decoder_inputs.attention_mask
-    )
-    
-    # Verify output
-    print(f"\nOutput P(y) shape: {P_final.shape}")
-    batch_size, tgt_len, vocab_size = P_final.shape
-    print(f"Expected: [batch_size={batch_size}, tgt_len={tgt_len}, vocab_size={vocab_size}]")
-    
-    # Check probabilities sum to 1
+    # Verify probabilities sum to 1
     prob_sum = P_final.sum(dim=-1)
-    print(f"\nProbability sum (should be ~1.0):")
-    print(f"  Min: {prob_sum.min().item():.4f}")
-    print(f"  Max: {prob_sum.max().item():.4f}")
-    print(f"  Mean: {prob_sum.mean().item():.4f}")
+    print(f"\n[+] Probability sum (should be ~1.0):")
+    print(f"    Min: {prob_sum.min().item():.6f}")
+    print(f"    Max: {prob_sum.max().item():.6f}")
+    print(f"    Mean: {prob_sum.mean().item():.6f}")
     
-    print("\n✓ CopyEnhancedCodeT5 successfully initialized and forward pass completed!")
+    print("\n[✓] CopyEnhancedCodeT5 successfully initialized and forward pass completed!")
