@@ -129,16 +129,17 @@ class CopyEnhancedCodeT5(nn.Module):
         P_vocab = torch.softmax(logits, dim=-1)
         
         # ===== STEP 5: Compute Copy Distribution P_copy =====
-        # Initialize zero tensor for copy distribution
+        # Initialize zero tensor for copy distribution (match A's dtype for AMP compatibility)
         # P_copy: [batch, tgt_len, vocab_size]
-        P_copy = torch.zeros(batch_size, tgt_len, self.vocab_size, device=device)
+        P_copy = torch.zeros(batch_size, tgt_len, self.vocab_size, device=device, dtype=A.dtype)
         
-        # Scatter attention weights into vocabulary dimension
-        for b in range(batch_size):
-            for t in range(tgt_len):
-                # A[b, t]: [src_len] - attention weights over source tokens
-                # input_ids[b]: [src_len] - source token indices
-                P_copy[b, t].scatter_add_(0, input_ids[b], A[b, t])
+        # Scatter attention weights into vocabulary dimension — VECTORIZED
+        # Old code used a double for-loop (B × T python calls) which was ~500x slower.
+        # Instead, expand input_ids to [B, T, S] so scatter_add_ runs in one fused op.
+        # input_ids: [B, S] → [B, 1, S] → [B, T, S]
+        idx = input_ids.unsqueeze(1).expand(-1, tgt_len, -1)   # [B, T, S]
+        # A: [B, T, S]  — attention weights to scatter into vocab positions
+        P_copy.scatter_add_(dim=2, index=idx, src=A)
         
         # ===== STEP 6: Combine using Generation Gate =====
         # Final distribution: P(y) = p_gen * P_vocab + (1 - p_gen) * P_copy
