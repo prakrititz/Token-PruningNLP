@@ -1,6 +1,28 @@
 """
 Java Code Parser for BUG2FIX using javalang
 Implements code compression with varying compression ratios
+
+
+Dataset Construction (What this script does): You do NOT need to run a BLM to score things right now. 
+This Python script represents Algorithm 1. Its job is to apply those pre-calculated priorities to the AST tokens and generate the <original_code, compressed_code> training pairs.
+Later, you will train CodeT5 on this data.
+
+
+They discovered that for the Bugs2Fix task, the LLM doesn't really care about variable names. It can figure out how to fix a bug just by looking at the structure of the code and the method signatures.
+
+So, the authors created a Removal Priority List (published in Figure 1 of the paper). You do not need to use an AI to figure this out; the authors already gave you the cheat sheet.
+
+For Bugs2Fix, the hit list from the paper is exactly this:
+
+    Identifiers (Variables like VAR_1, date — Safest to delete, kill these first)
+
+    Invocations (Function calls like .getInstance())
+
+    Structure (Keywords like if, return)
+
+    Symbols (Operators like =, {)
+
+    Signatures (The method definition public static TYPE_1 init(...) — Protect at all costs)
 """
 
 import javalang

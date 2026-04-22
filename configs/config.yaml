@@ -1,0 +1,108 @@
+# ============================================================
+# CodePromptZip Configuration
+# ============================================================
+
+# --- Model ---
+model:
+  compressor_name: "Salesforce/codet5-base"   # CodeT5-base (220M params)
+  use_copy_mechanism: true
+  max_source_length: 512
+  max_target_length: 512
+
+# --- Base LM (for downstream evaluation) ---
+base_lm:
+  model_path: "codellama-13b-instruct.Q4_K_M.gguf"  # Path to quantized GGUF
+  n_ctx: 4096          # Context window
+  n_gpu_layers: 40     # Offload layers to GPU
+  temperature: 0.0     # Deterministic generation
+  max_tokens: 256      # Max generation tokens
+ 
+# --- Training ---
+training:
+  batch_size: 2                  # Small batch for 8GB VRAM
+  gradient_accumulation_steps: 8 # Effective batch = 2*8 = 16 
+  learning_rate: 5.0e-5
+  weight_decay: 0.01
+  num_epochs: 10
+  warmup_steps: 1000
+  fp16: true
+  gradient_checkpointing: true
+  save_steps: 5000      # Checkpoints take huge SSD space; save 4-5 times an epoch max
+  eval_steps: 1000      # 1000 steps balances accurate continuous tracking without heavily slowing down training
+  logging_steps: 100    # 100 steps creates a clean, readable text log (avoids spam)
+  seed: 42
+  output_dir: "./checkpoints"
+  log_dir: "./logs"
+
+# --- Data ---
+data:
+  task: "bugs2fix"    # bugs2fix | assertion | suggestion
+  raw_dir: "./data/raw"
+  processed_dir: "./data/processed"
+  compression_dataset_dir: "./data/compression_dataset"
+  num_compression_ratios: 9            # τ_code ∈ {0.1, ..., 0.9}
+  compression_ratios: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
+  train_split_ratio: 0.8
+  val_split_ratio: 0.1
+  test_split_ratio: 0.1
+  max_eval_samples: 2000              # Sample 2000 for evaluation (paper)
+
+# --- Retrieval ---
+retrieval:
+  method: "bm25"
+  num_shots: 1          # 1-shot by default
+  tokenize_method: "split"  # simple whitespace split for BM25
+
+# --- Priority Ranking (from paper's ablation study results) ---
+priority_ranking:
+  # Higher index = removed first (higher removal priority)
+  bugs2fix:
+    - "Identifier"   # Priority 1 (removed first)
+    - "Invocation"   # Priority 2
+    - "Structure"    # Priority 3
+    - "Symbol"       # Priority 4
+    - "Signature"    # Priority 5 (removed last)
+  assertion:
+    - "Invocation"
+    - "Symbol"
+    - "Identifier"
+    - "Structure"
+    - "Signature"
+  suggestion:
+    - "Invocation"
+    - "Structure"
+    - "Symbol"
+    - "Identifier"
+    - "Signature"
+
+# --- Special Tokens ---
+special_tokens:
+  task_tokens:
+    - "<ASSERTION>"
+    - "<BUGS2FIX>"
+    - "<SUGGESTION>"
+  ratio_tokens:
+    - "<Ratio>"
+    - "</Ratio>"
+  compress_tokens:
+    - "<Compress>"
+    - "</Compress>"
+  ratio_value_tokens:
+    - "0.1"
+    - "0.2"
+    - "0.3"
+    - "0.4"
+    - "0.5"
+    - "0.6"
+    - "0.7"
+    - "0.8"
+    - "0.9"
+
+# --- Evaluation ---
+evaluation:
+  default_tau_code: 0.3     # Default compression ratio for evaluation
+  num_shots: 1              # Default number of shots
+  metrics:
+    bugs2fix: "codebleu"
+    assertion: "exact_match"
+    suggestion: "codebleu"
