@@ -1,0 +1,934 @@
+Epoch 0.0042 | Step 100 | Loss 3.6685 | LR 4.80e-06
+Epoch 0.0085 | Step 200 | Loss 2.4364 | LR 9.75e-06
+Epoch 0.0127 | Step 300 | Loss 1.8367 | LR 1.47e-05
+Epoch 0.0170 | Step 400 | Loss 1.4950 | LR 1.97e-05
+Epoch 0.0212 | Step 500 | Loss 1.2712 | LR 2.47e-05
+Epoch 0.0255 | Step 600 | Loss 1.1131 | LR 2.97e-05
+Epoch 0.0297 | Step 700 | Loss 0.9968 | LR 3.47e-05
+Epoch 0.0340 | Step 800 | Loss 0.9038 | LR 3.97e-05
+Epoch 0.0382 | Step 900 | Loss 0.8284 | LR 4.47e-05
+Epoch 0.0424 | Step 1000 | Loss 0.7677 | LR 4.97e-05
+
+Epoch 0.0424 | Step 1000 | Validation Loss: 0.1600 (New Best!)
+
+Epoch 0.0467 | Step 1100 | Loss 0.7156 | LR 5.00e-05
+Epoch 0.0509 | Step 1200 | Loss 0.6715 | LR 5.00e-05
+Epoch 0.0552 | Step 1300 | Loss 0.6333 | LR 4.99e-05
+Epoch 0.0594 | Step 1400 | Loss 0.5997 | LR 4.99e-05
+Epoch 0.0637 | Step 1500 | Loss 0.5704 | LR 4.99e-05
+Epoch 0.0679 | Step 1600 | Loss 0.5445 | LR 4.99e-05
+Epoch 0.0721 | Step 1700 | Loss 0.5209 | LR 4.99e-05
+Epoch 0.0764 | Step 1800 | Loss 0.4996 | LR 4.98e-05
+Epoch 0.0806 | Step 1900 | Loss 0.4803 | LR 4.98e-05
+Epoch 0.0849 | Step 2000 | Loss 0.4625 | LR 4.98e-05
+
+Epoch 0.0849 | Step 2000 | Validation Loss: 0.1026 (New Best!)
+
+Epoch 0.0891 | Step 2100 | Loss 0.4463 | LR 4.98e-05
+Epoch 0.0934 | Step 2200 | Loss 0.4315 | LR 4.97e-05
+Epoch 0.0976 | Step 2300 | Loss 0.4180 | LR 4.97e-05
+Epoch 0.1019 | Step 2400 | Loss 0.4056 | LR 4.97e-05
+Epoch 0.1061 | Step 2500 | Loss 0.3940 | LR 4.97e-05
+Epoch 0.1103 | Step 2600 | Loss 0.3832 | LR 4.97e-05
+Epoch 0.1146 | Step 2700 | Loss 0.3731 | LR 4.96e-05
+Epoch 0.1188 | Step 2800 | Loss 0.3636 | LR 4.96e-05
+Epoch 0.1231 | Step 2900 | Loss 0.3547 | LR 4.96e-05
+Epoch 0.1273 | Step 3000 | Loss 0.3463 | LR 4.96e-05
+
+Epoch 0.1273 | Step 3000 | Validation Loss: 0.0807 (New Best!)
+
+Epoch 0.1316 | Step 3100 | Loss 0.3383 | LR 4.96e-05
+Epoch 0.1358 | Step 3200 | Loss 0.3307 | LR 4.95e-05
+Epoch 0.1400 | Step 3300 | Loss 0.3238 | LR 4.95e-05
+Epoch 0.1443 | Step 3400 | Loss 0.3171 | LR 4.95e-05
+Epoch 0.1485 | Step 3500 | Loss 0.3109 | LR 4.95e-05
+Epoch 0.1528 | Step 3600 | Loss 0.3048 | LR 4.94e-05
+Epoch 0.1570 | Step 3700 | Loss 0.2990 | LR 4.94e-05
+Epoch 0.1613 | Step 3800 | Loss 0.2934 | LR 4.94e-05
+Epoch 0.1655 | Step 3900 | Loss 0.2881 | LR 4.94e-05
+Epoch 0.1698 | Step 4000 | Loss 0.2830 | LR 4.94e-05
+
+Epoch 0.1698 | Step 4000 | Validation Loss: 0.0705 (New Best!)
+
+Epoch 0.1740 | Step 4100 | Loss 0.2781 | LR 4.93e-05
+Epoch 0.1782 | Step 4200 | Loss 0.2735 | LR 4.93e-05
+Epoch 0.1825 | Step 4300 | Loss 0.2690 | LR 4.93e-05
+Epoch 0.1867 | Step 4400 | Loss 0.2648 | LR 4.93e-05
+Epoch 0.1910 | Step 4500 | Loss 0.2608 | LR 4.93e-05
+Epoch 0.1952 | Step 4600 | Loss 0.2568 | LR 4.92e-05
+Epoch 0.1995 | Step 4700 | Loss 0.2531 | LR 4.92e-05
+Epoch 0.2037 | Step 4800 | Loss 0.2495 | LR 4.92e-05
+Epoch 0.2079 | Step 4900 | Loss 0.2461 | LR 4.92e-05
+Epoch 0.2122 | Step 5000 | Loss 0.2427 | LR 4.91e-05
+
+Epoch 0.2122 | Step 5000 | Validation Loss: 0.0671 (New Best!)
+
+Epoch 0.2164 | Step 5100 | Loss 0.2395 | LR 4.91e-05
+Epoch 0.2207 | Step 5200 | Loss 0.2363 | LR 4.91e-05
+Epoch 0.2249 | Step 5300 | Loss 0.2332 | LR 4.91e-05
+Epoch 0.2292 | Step 5400 | Loss 0.2302 | LR 4.91e-05
+Epoch 0.2334 | Step 5500 | Loss 0.2273 | LR 4.90e-05
+Epoch 0.2377 | Step 5600 | Loss 0.2245 | LR 4.90e-05
+Epoch 0.2419 | Step 5700 | Loss 0.2218 | LR 4.90e-05
+Epoch 0.2461 | Step 5800 | Loss 0.2192 | LR 4.90e-05
+Epoch 0.2504 | Step 5900 | Loss 0.2168 | LR 4.90e-05
+Epoch 0.2546 | Step 6000 | Loss 0.2143 | LR 4.89e-05
+
+Epoch 0.2546 | Step 6000 | Validation Loss: 0.0602 (New Best!)
+
+Epoch 0.2589 | Step 6100 | Loss 0.2119 | LR 4.89e-05
+Epoch 0.2631 | Step 6200 | Loss 0.2095 | LR 4.89e-05
+Epoch 0.2674 | Step 6300 | Loss 0.2072 | LR 4.89e-05
+Epoch 0.2716 | Step 6400 | Loss 0.2050 | LR 4.89e-05 
+Epoch 0.2758 | Step 6500 | Loss 0.2030 | LR 4.88e-05
+Epoch 0.2801 | Step 6600 | Loss 0.2009 | LR 4.88e-05
+Epoch 0.2843 | Step 6700 | Loss 0.1988 | LR 4.88e-05
+Epoch 0.2886 | Step 6800 | Loss 0.1969 | LR 4.88e-05
+Epoch 0.2928 | Step 6900 | Loss 0.1950 | LR 4.87e-05
+Epoch 0.2971 | Step 7000 | Loss 0.1931 | LR 4.87e-05
+
+Epoch 0.2971 | Step 7000 | Validation Loss: 0.0536 (New Best!)
+
+Epoch 0.3013 | Step 7100 | Loss 0.1912 | LR 4.87e-05
+Epoch 0.3056 | Step 7200 | Loss 0.1894 | LR 4.87e-05
+Epoch 0.3098 | Step 7300 | Loss 0.1877 | LR 4.87e-05
+Epoch 0.3140 | Step 7400 | Loss 0.1860 | LR 4.86e-05
+Epoch 0.3183 | Step 7500 | Loss 0.1844 | LR 4.86e-05
+Epoch 0.3225 | Step 7600 | Loss 0.1827 | LR 4.86e-05
+Epoch 0.3268 | Step 7700 | Loss 0.1812 | LR 4.86e-05
+Epoch 0.3310 | Step 7800 | Loss 0.1796 | LR 4.86e-05
+Epoch 0.3353 | Step 7900 | Loss 0.1781 | LR 4.85e-05
+Epoch 0.3395 | Step 8000 | Loss 0.1766 | LR 4.85e-05
+
+Epoch 0.3395 | Step 8000 | Validation Loss: 0.0559
+
+Epoch 0.3438 | Step 8100 | Loss 0.1752 | LR 4.85e-05
+Epoch 0.3480 | Step 8200 | Loss 0.1737 | LR 4.85e-05
+Epoch 0.3522 | Step 8300 | Loss 0.1724 | LR 4.84e-05
+Epoch 0.3565 | Step 8400 | Loss 0.1710 | LR 4.84e-05
+Epoch 0.3607 | Step 8500 | Loss 0.1698 | LR 4.84e-05
+Epoch 0.3650 | Step 8600 | Loss 0.1684 | LR 4.84e-05
+Epoch 0.3692 | Step 8700 | Loss 0.1672 | LR 4.84e-05
+Epoch 0.3735 | Step 8800 | Loss 0.1659 | LR 4.83e-05
+Epoch 0.3777 | Step 8900 | Loss 0.1647 | LR 4.83e-05
+Epoch 0.3819 | Step 9000 | Loss 0.1635 | LR 4.83e-05
+
+Epoch 0.3819 | Step 9000 | Validation Loss: 0.0473 (New Best!)
+
+Epoch 0.3862 | Step 9100 | Loss 0.1623 | LR 4.83e-05
+Epoch 0.3904 | Step 9200 | Loss 0.1612 | LR 4.83e-05
+Epoch 0.3947 | Step 9300 | Loss 0.1601 | LR 4.82e-05
+Epoch 0.3989 | Step 9400 | Loss 0.1589 | LR 4.82e-05
+Epoch 0.4032 | Step 9500 | Loss 0.1578 | LR 4.82e-05
+Epoch 0.4074 | Step 9600 | Loss 0.1568 | LR 4.82e-05
+Epoch 0.4117 | Step 9700 | Loss 0.1557 | LR 4.81e-05
+Epoch 0.4159 | Step 9800 | Loss 0.1546 | LR 4.81e-05
+Epoch 0.4201 | Step 9900 | Loss 0.1536 | LR 4.81e-05
+Epoch 0.4244 | Step 10000 | Loss 0.1525 | LR 4.81e-05
+
+Epoch 0.4244 | Step 10000 | Validation Loss: 0.0436 (New Best!)
+
+Epoch 0.4286 | Step 10100 | Loss 0.1515 | LR 4.81e-05
+Epoch 0.4329 | Step 10200 | Loss 0.1506 | LR 4.80e-05
+Epoch 0.4371 | Step 10300 | Loss 0.1496 | LR 4.80e-05
+Epoch 0.4414 | Step 10400 | Loss 0.1486 | LR 4.80e-05
+Epoch 0.4456 | Step 10500 | Loss 0.1477 | LR 4.80e-05
+Epoch 0.4498 | Step 10600 | Loss 0.1468 | LR 4.80e-05
+Epoch 0.4541 | Step 10700 | Loss 0.1459 | LR 4.79e-05
+Epoch 0.4583 | Step 10800 | Loss 0.1450 | LR 4.79e-05
+Epoch 0.4626 | Step 10900 | Loss 0.1441 | LR 4.79e-05
+Epoch 0.4668 | Step 11000 | Loss 0.1433 | LR 4.79e-05
+
+Epoch 0.4668 | Step 11000 | Validation Loss: 0.0443
+
+Epoch 0.4711 | Step 11100 | Loss 0.1424 | LR 4.78e-05
+Epoch 0.4753 | Step 11200 | Loss 0.1416 | LR 4.78e-05
+Epoch 0.4796 | Step 11300 | Loss 0.1408 | LR 4.78e-05
+Epoch 0.4838 | Step 11400 | Loss 0.1400 | LR 4.78e-05
+Epoch 0.4880 | Step 11500 | Loss 0.1393 | LR 4.78e-05
+Epoch 0.4923 | Step 11600 | Loss 0.1384 | LR 4.77e-05
+Epoch 0.4965 | Step 11700 | Loss 0.1377 | LR 4.77e-05
+Epoch 0.5008 | Step 11800 | Loss 0.1369 | LR 4.77e-05
+Epoch 0.5050 | Step 11900 | Loss 0.1362 | LR 4.77e-05
+Epoch 0.5093 | Step 12000 | Loss 0.1355 | LR 4.77e-05
+
+Epoch 0.5093 | Step 12000 | Validation Loss: 0.0415 (New Best!)
+
+Epoch 0.5135 | Step 12100 | Loss 0.1348 | LR 4.76e-05
+Epoch 0.5177 | Step 12200 | Loss 0.1340 | LR 4.76e-05
+Epoch 0.5220 | Step 12300 | Loss 0.1333 | LR 4.76e-05
+Epoch 0.5262 | Step 12400 | Loss 0.1326 | LR 4.76e-05
+Epoch 0.5305 | Step 12500 | Loss 0.1319 | LR 4.76e-05
+Epoch 0.5347 | Step 12600 | Loss 0.1313 | LR 4.75e-05
+Epoch 0.5390 | Step 12700 | Loss 0.1306 | LR 4.75e-05
+Epoch 0.5432 | Step 12800 | Loss 0.1299 | LR 4.75e-05
+Epoch 0.5475 | Step 12900 | Loss 0.1293 | LR 4.75e-05
+Epoch 0.5517 | Step 13000 | Loss 0.1287 | LR 4.74e-05
+
+Epoch 0.5517 | Step 13000 | Validation Loss: 0.0516
+
+Epoch 0.5559 | Step 13100 | Loss 0.1280 | LR 4.74e-05
+Epoch 0.5602 | Step 13200 | Loss 0.1274 | LR 4.74e-05
+Epoch 0.5644 | Step 13300 | Loss 0.1268 | LR 4.74e-05
+Epoch 0.5687 | Step 13400 | Loss 0.1261 | LR 4.74e-05
+Epoch 0.5729 | Step 13500 | Loss 0.1255 | LR 4.73e-05
+Epoch 0.5772 | Step 13600 | Loss 0.1249 | LR 4.73e-05
+Epoch 0.5814 | Step 13700 | Loss 0.1243 | LR 4.73e-05
+Epoch 0.5856 | Step 13800 | Loss 0.1237 | LR 4.73e-05
+Epoch 0.5899 | Step 13900 | Loss 0.1231 | LR 4.73e-05
+Epoch 0.5941 | Step 14000 | Loss 0.1226 | LR 4.72e-05
+
+Epoch 0.5941 | Step 14000 | Validation Loss: 0.0494
+
+Epoch 0.5984 | Step 14100 | Loss 0.1220 | LR 4.72e-05
+Epoch 0.6026 | Step 14200 | Loss 0.1215 | LR 4.72e-05
+Epoch 0.6069 | Step 14300 | Loss 0.1209 | LR 4.72e-05
+Epoch 0.6111 | Step 14400 | Loss 0.1204 | LR 4.71e-05
+Epoch 0.6154 | Step 14500 | Loss 0.1198 | LR 4.71e-05
+Epoch 0.6196 | Step 14600 | Loss 0.1193 | LR 4.71e-05
+Epoch 0.6238 | Step 14700 | Loss 0.1188 | LR 4.71e-05
+Epoch 0.6281 | Step 14800 | Loss 0.1183 | LR 4.71e-05
+Epoch 0.6323 | Step 14900 | Loss 0.1178 | LR 4.70e-05
+Epoch 0.6366 | Step 15000 | Loss 0.1173 | LR 4.70e-05
+
+Epoch 0.6366 | Step 15000 | Validation Loss: 0.0349 (New Best!)
+
+Epoch 0.6408 | Step 15100 | Loss 0.1168 | LR 4.70e-05
+Epoch 0.6451 | Step 15200 | Loss 0.1163 | LR 4.70e-05
+Epoch 0.6493 | Step 15300 | Loss 0.1158 | LR 4.70e-05
+Epoch 0.6535 | Step 15400 | Loss 0.1153 | LR 4.69e-05
+Epoch 0.6578 | Step 15500 | Loss 0.1149 | LR 4.69e-05
+Epoch 0.6620 | Step 15600 | Loss 0.1144 | LR 4.69e-05
+Epoch 0.6663 | Step 15700 | Loss 0.1139 | LR 4.69e-05
+Epoch 0.6705 | Step 15800 | Loss 0.1135 | LR 4.68e-05
+Epoch 0.6748 | Step 15900 | Loss 0.1130 | LR 4.68e-05
+Epoch 0.6790 | Step 16000 | Loss 0.1126 | LR 4.68e-05
+
+Epoch 0.6790 | Step 16000 | Validation Loss: 0.0377
+
+Epoch 0.6833 | Step 16100 | Loss 0.1121 | LR 4.68e-05
+Epoch 0.6875 | Step 16200 | Loss 0.1117 | LR 4.68e-05
+Epoch 0.6917 | Step 16300 | Loss 0.1112 | LR 4.67e-05
+Epoch 0.6960 | Step 16400 | Loss 0.1108 | LR 4.67e-05
+Epoch 0.7002 | Step 16500 | Loss 0.1103 | LR 4.67e-05
+Epoch 0.7045 | Step 16600 | Loss 0.1099 | LR 4.67e-05
+Epoch 0.7087 | Step 16700 | Loss 0.1095 | LR 4.67e-05
+Epoch 0.7130 | Step 16800 | Loss 0.1091 | LR 4.66e-05
+Epoch 0.7172 | Step 16900 | Loss 0.1087 | LR 4.66e-05
+Epoch 0.7215 | Step 17000 | Loss 0.1083 | LR 4.66e-05
+
+Epoch 0.7215 | Step 17000 | Validation Loss: 0.0386
+
+Epoch 0.7257 | Step 17100 | Loss 0.1079 | LR 4.66e-05
+Epoch 0.7299 | Step 17200 | Loss 0.1075 | LR 4.66e-05
+Epoch 0.7342 | Step 17300 | Loss 0.1071 | LR 4.65e-05
+Epoch 0.7384 | Step 17400 | Loss 0.1067 | LR 4.65e-05
+Epoch 0.7427 | Step 17500 | Loss 0.1063 | LR 4.65e-05
+Epoch 0.7469 | Step 17600 | Loss 0.1060 | LR 4.65e-05
+Epoch 0.7512 | Step 17700 | Loss 0.1056 | LR 4.64e-05
+Epoch 0.7554 | Step 17800 | Loss 0.1052 | LR 4.64e-05
+Epoch 0.7596 | Step 17900 | Loss 0.1048 | LR 4.64e-05
+Epoch 0.7639 | Step 18000 | Loss 0.1045 | LR 4.64e-05
+
+Epoch 0.7639 | Step 18000 | Validation Loss: 0.0392
+
+Epoch 0.7681 | Step 18100 | Loss 0.1041 | LR 4.64e-05
+Epoch 0.7724 | Step 18200 | Loss 0.1037 | LR 4.63e-05
+Epoch 0.7766 | Step 18300 | Loss 0.1033 | LR 4.63e-05
+Epoch 0.7809 | Step 18400 | Loss 0.1030 | LR 4.63e-05
+Epoch 0.7851 | Step 18500 | Loss 0.1026 | LR 4.63e-05
+Epoch 0.7894 | Step 18600 | Loss 0.1023 | LR 4.63e-05
+Epoch 0.7936 | Step 18700 | Loss 0.1019 | LR 4.62e-05
+Epoch 0.7978 | Step 18800 | Loss 0.1016 | LR 4.62e-05
+Epoch 0.8021 | Step 18900 | Loss 0.1012 | LR 4.62e-05
+Epoch 0.8063 | Step 19000 | Loss 0.1009 | LR 4.62e-05
+
+Epoch 0.8063 | Step 19000 | Validation Loss: 0.0376
+
+Epoch 0.8106 | Step 19100 | Loss 0.1006 | LR 4.61e-05
+Epoch 0.8148 | Step 19200 | Loss 0.1002 | LR 4.61e-05
+Epoch 0.8191 | Step 19300 | Loss 0.0999 | LR 4.61e-05
+Epoch 0.8233 | Step 19400 | Loss 0.0996 | LR 4.61e-05
+Epoch 0.8275 | Step 19500 | Loss 0.0992 | LR 4.61e-05
+Epoch 0.8318 | Step 19600 | Loss 0.0989 | LR 4.60e-05
+Epoch 0.8360 | Step 19700 | Loss 0.0986 | LR 4.60e-05
+Epoch 0.8403 | Step 19800 | Loss 0.0983 | LR 4.60e-05
+Epoch 0.8445 | Step 19900 | Loss 0.0980 | LR 4.60e-05
+Epoch 0.8488 | Step 20000 | Loss 0.0977 | LR 4.60e-05
+
+Epoch 0.8488 | Step 20000 | Validation Loss: 0.0310 (New Best!)
+
+Epoch 0.8530 | Step 20100 | Loss 0.0974 | LR 4.59e-05
+Epoch 0.8573 | Step 20200 | Loss 0.0971 | LR 4.59e-05
+Epoch 0.8615 | Step 20300 | Loss 0.0968 | LR 4.59e-05
+Epoch 0.8657 | Step 20400 | Loss 0.0965 | LR 4.59e-05
+Epoch 0.8700 | Step 20500 | Loss 0.0962 | LR 4.58e-05
+Epoch 0.8742 | Step 20600 | Loss 0.0959 | LR 4.58e-05
+Epoch 0.8785 | Step 20700 | Loss 0.0956 | LR 4.58e-05
+Epoch 0.8827 | Step 20800 | Loss 0.0953 | LR 4.58e-05
+Epoch 0.8870 | Step 20900 | Loss 0.0950 | LR 4.58e-05
+Epoch 0.8912 | Step 21000 | Loss 0.0947 | LR 4.57e-05
+
+Epoch 0.8912 | Step 21000 | Validation Loss: 0.0363
+
+Epoch 0.8954 | Step 21100 | Loss 0.0945 | LR 4.57e-05
+Epoch 0.8997 | Step 21200 | Loss 0.0942 | LR 4.57e-05
+Epoch 0.9039 | Step 21300 | Loss 0.0939 | LR 4.57e-05
+Epoch 0.9082 | Step 21400 | Loss 0.0937 | LR 4.57e-05
+Epoch 0.9124 | Step 21500 | Loss 0.0934 | LR 4.56e-05
+Epoch 0.9167 | Step 21600 | Loss 0.0931 | LR 4.56e-05
+Epoch 0.9209 | Step 21700 | Loss 0.0929 | LR 4.56e-05
+Epoch 0.9252 | Step 21800 | Loss 0.0926 | LR 4.56e-05
+Epoch 0.9294 | Step 21900 | Loss 0.0923 | LR 4.55e-05
+Epoch 0.9336 | Step 22000 | Loss 0.0921 | LR 4.55e-05
+
+Epoch 0.9336 | Step 22000 | Validation Loss: 0.0295 (New Best!)
+
+Epoch 0.9379 | Step 22100 | Loss 0.0918 | LR 4.55e-05
+Epoch 0.9421 | Step 22200 | Loss 0.0915 | LR 4.55e-05
+Epoch 0.9464 | Step 22300 | Loss 0.0913 | LR 4.55e-05
+Epoch 0.9506 | Step 22400 | Loss 0.0911 | LR 4.54e-05
+Epoch 0.9549 | Step 22500 | Loss 0.0908 | LR 4.54e-05
+Epoch 0.9591 | Step 22600 | Loss 0.0906 | LR 4.54e-05
+Epoch 0.9633 | Step 22700 | Loss 0.0903 | LR 4.54e-05
+Epoch 0.9676 | Step 22800 | Loss 0.0901 | LR 4.54e-05
+Epoch 0.9718 | Step 22900 | Loss 0.0898 | LR 4.53e-05
+Epoch 0.9761 | Step 23000 | Loss 0.0896 | LR 4.53e-05
+
+Epoch 0.9761 | Step 23000 | Validation Loss: 0.0284 (New Best!)
+
+Epoch 0.9803 | Step 23100 | Loss 0.0894 | LR 4.53e-05
+Epoch 0.9846 | Step 23200 | Loss 0.0891 | LR 4.53e-05
+Epoch 0.9888 | Step 23300 | Loss 0.0889 | LR 4.53e-05
+Epoch 0.9931 | Step 23400 | Loss 0.0886 | LR 4.52e-05
+Epoch 0.9973 | Step 23500 | Loss 0.0884 | LR 4.52e-05
+
+Epoch 1.0000 | End of Epoch | Validation Loss: 0.0388
+
+Epoch 1.0016 | Step 23600 | Loss 0.0300 | LR 4.52e-05
+Epoch 1.0058 | Step 23700 | Loss 0.0324 | LR 4.52e-05
+Epoch 1.0101 | Step 23800 | Loss 0.0321 | LR 4.51e-05
+Epoch 1.0143 | Step 23900 | Loss 0.0320 | LR 4.51e-05
+Epoch 1.0185 | Step 24000 | Loss 0.0320 | LR 4.51e-05
+Epoch 0.0170 | Step 100 | Loss 0.3926 | LR 4.90e-06
+Epoch 0.0340 | Step 200 | Loss 0.2081 | LR 9.90e-06
+Epoch 0.0042 | Step 100 | Loss 0.0263 | LR 5.00e-06
+Epoch 0.0085 | Step 200 | Loss 0.0255 | LR 1.00e-05
+Epoch 0.0127 | Step 300 | Loss 0.0252 | LR 1.50e-05
+Epoch 0.0170 | Step 400 | Loss 0.0250 | LR 1.99e-05
+Epoch 0.0212 | Step 500 | Loss 0.0250 | LR 2.49e-05
+Epoch 0.0255 | Step 600 | Loss 0.0250 | LR 2.99e-05
+Epoch 0.0297 | Step 700 | Loss 0.0251 | LR 3.49e-05
+Epoch 0.0340 | Step 800 | Loss 0.0251 | LR 3.98e-05
+Epoch 0.0382 | Step 900 | Loss 0.0256 | LR 4.47e-05
+Epoch 0.0424 | Step 1000 | Loss 0.0263 | LR 4.97e-05
+
+Epoch 0.0424 | Step 1000 | Validation Loss: 0.0372 (New Best!)
+
+Epoch 0.0467 | Step 1100 | Loss 0.0267 | LR 5.00e-05
+Epoch 0.0509 | Step 1200 | Loss 0.0269 | LR 5.00e-05
+Epoch 0.0552 | Step 1300 | Loss 0.0272 | LR 4.99e-05
+Epoch 0.0594 | Step 1400 | Loss 0.0273 | LR 4.99e-05
+Epoch 0.0637 | Step 1500 | Loss 0.0275 | LR 4.99e-05
+Epoch 0.0679 | Step 1600 | Loss 0.0275 | LR 4.99e-05
+Epoch 0.0721 | Step 1700 | Loss 0.0275 | LR 4.99e-05
+Epoch 0.0764 | Step 1800 | Loss 0.0277 | LR 4.98e-05
+Epoch 0.0806 | Step 1900 | Loss 0.0277 | LR 4.98e-05
+Epoch 0.0849 | Step 2000 | Loss 0.0279 | LR 4.98e-05
+
+Epoch 0.0849 | Step 2000 | Validation Loss: 0.0269 (New Best!)
+
+Epoch 0.0891 | Step 2100 | Loss 0.0278 | LR 4.98e-05
+Epoch 0.0934 | Step 2200 | Loss 0.0278 | LR 4.97e-05
+Epoch 0.0976 | Step 2300 | Loss 0.0280 | LR 4.97e-05
+Epoch 0.1019 | Step 2400 | Loss 0.0280 | LR 4.97e-05
+Epoch 0.1061 | Step 2500 | Loss 0.0280 | LR 4.97e-05
+Epoch 0.1103 | Step 2600 | Loss 0.0281 | LR 4.97e-05
+Epoch 0.1146 | Step 2700 | Loss 0.0280 | LR 4.96e-05
+Epoch 0.1188 | Step 2800 | Loss 0.0280 | LR 4.96e-05
+Epoch 0.1231 | Step 2900 | Loss 0.0280 | LR 4.96e-05
+Epoch 0.1273 | Step 3000 | Loss 0.0280 | LR 4.96e-05
+
+Epoch 0.1273 | Step 3000 | Validation Loss: 0.0339
+
+Epoch 0.1316 | Step 3100 | Loss 0.0280 | LR 4.96e-05
+Epoch 0.1358 | Step 3200 | Loss 0.0280 | LR 4.95e-05
+Epoch 0.1400 | Step 3300 | Loss 0.0280 | LR 4.95e-05
+Epoch 0.1443 | Step 3400 | Loss 0.0279 | LR 4.95e-05
+Epoch 0.1485 | Step 3500 | Loss 0.0280 | LR 4.95e-05
+Epoch 0.1528 | Step 3600 | Loss 0.0279 | LR 4.94e-05
+Epoch 0.1570 | Step 3700 | Loss 0.0280 | LR 4.94e-05
+Epoch 0.1613 | Step 3800 | Loss 0.0280 | LR 4.94e-05
+Epoch 0.1655 | Step 3900 | Loss 0.0280 | LR 4.94e-05
+Epoch 0.1698 | Step 4000 | Loss 0.0279 | LR 4.94e-05
+
+Epoch 0.1698 | Step 4000 | Validation Loss: 0.0270
+
+Epoch 0.1740 | Step 4100 | Loss 0.0279 | LR 4.93e-05
+Epoch 0.1782 | Step 4200 | Loss 0.0279 | LR 4.93e-05
+Epoch 0.1825 | Step 4300 | Loss 0.0278 | LR 4.93e-05
+Epoch 0.1867 | Step 4400 | Loss 0.0278 | LR 4.93e-05
+Epoch 0.1910 | Step 4500 | Loss 0.0278 | LR 4.93e-05
+Epoch 0.1952 | Step 4600 | Loss 0.0278 | LR 4.92e-05
+Epoch 0.1995 | Step 4700 | Loss 0.0277 | LR 4.92e-05
+Epoch 0.2037 | Step 4800 | Loss 0.0277 | LR 4.92e-05
+Epoch 0.2079 | Step 4900 | Loss 0.0277 | LR 4.92e-05
+Epoch 0.2122 | Step 5000 | Loss 0.0277 | LR 4.91e-05
+
+Epoch 0.2122 | Step 5000 | Validation Loss: 0.0368
+
+Epoch 0.2164 | Step 5100 | Loss 0.0276 | LR 4.91e-05
+Epoch 0.2207 | Step 5200 | Loss 0.0276 | LR 4.91e-05
+Epoch 0.2249 | Step 5300 | Loss 0.0276 | LR 4.91e-05
+Epoch 0.2292 | Step 5400 | Loss 0.0276 | LR 4.91e-05
+Epoch 0.2334 | Step 5500 | Loss 0.0277 | LR 4.90e-05
+Epoch 0.2377 | Step 5600 | Loss 0.0277 | LR 4.90e-05
+Epoch 0.2419 | Step 5700 | Loss 0.0276 | LR 4.90e-05
+Epoch 0.2461 | Step 5800 | Loss 0.0276 | LR 4.90e-05
+Epoch 0.2504 | Step 5900 | Loss 0.0276 | LR 4.90e-05
+Epoch 0.2546 | Step 6000 | Loss 0.0276 | LR 4.89e-05
+
+Epoch 0.2546 | Step 6000 | Validation Loss: 0.0265 (New Best!)
+
+Epoch 0.2589 | Step 6100 | Loss 0.0276 | LR 4.89e-05
+Epoch 0.2631 | Step 6200 | Loss 0.0275 | LR 4.89e-05
+Epoch 0.2674 | Step 6300 | Loss 0.0275 | LR 4.89e-05
+Epoch 0.2716 | Step 6400 | Loss 0.0275 | LR 4.89e-05
+Epoch 0.2759 | Step 6500 | Loss 0.0274 | LR 4.88e-05
+Epoch 0.2801 | Step 6600 | Loss 0.0274 | LR 4.88e-05
+Epoch 0.2843 | Step 6700 | Loss 0.0274 | LR 4.88e-05
+Epoch 0.2886 | Step 6800 | Loss 0.0274 | LR 4.88e-05
+Epoch 0.2928 | Step 6900 | Loss 0.0274 | LR 4.87e-05
+Epoch 0.2971 | Step 7000 | Loss 0.0274 | LR 4.87e-05
+
+Epoch 0.2971 | Step 7000 | Validation Loss: 0.0282
+
+Epoch 0.3013 | Step 7100 | Loss 0.0274 | LR 4.87e-05
+Epoch 0.3056 | Step 7200 | Loss 0.0274 | LR 4.87e-05
+Epoch 0.3098 | Step 7300 | Loss 0.0274 | LR 4.87e-05
+Epoch 0.3140 | Step 7400 | Loss 0.0273 | LR 4.86e-05
+Epoch 0.3183 | Step 7500 | Loss 0.0273 | LR 4.86e-05
+Epoch 0.3225 | Step 7600 | Loss 0.0273 | LR 4.86e-05
+Epoch 0.3268 | Step 7700 | Loss 0.0273 | LR 4.86e-05
+Epoch 0.3310 | Step 7800 | Loss 0.0273 | LR 4.86e-05
+Epoch 0.3353 | Step 7900 | Loss 0.0272 | LR 4.85e-05
+Epoch 0.3395 | Step 8000 | Loss 0.0272 | LR 4.85e-05
+
+Epoch 0.3395 | Step 8000 | Validation Loss: 0.0262 (New Best!)
+
+Epoch 0.3438 | Step 8100 | Loss 0.0272 | LR 4.85e-05
+Epoch 0.3480 | Step 8200 | Loss 0.0272 | LR 4.85e-05
+Epoch 0.3522 | Step 8300 | Loss 0.0272 | LR 4.84e-05
+Epoch 0.3565 | Step 8400 | Loss 0.0271 | LR 4.84e-05
+Epoch 0.3607 | Step 8500 | Loss 0.0271 | LR 4.84e-05
+Epoch 0.3650 | Step 8600 | Loss 0.0271 | LR 4.84e-05
+Epoch 0.3692 | Step 8700 | Loss 0.0270 | LR 4.84e-05
+Epoch 0.3735 | Step 8800 | Loss 0.0270 | LR 4.83e-05
+Epoch 0.3777 | Step 8900 | Loss 0.0270 | LR 4.83e-05
+Epoch 0.3819 | Step 9000 | Loss 0.0270 | LR 4.83e-05
+
+Epoch 0.3819 | Step 9000 | Validation Loss: 0.0230 (New Best!)
+
+Epoch 0.3862 | Step 9100 | Loss 0.0270 | LR 4.83e-05
+Epoch 0.3904 | Step 9200 | Loss 0.0269 | LR 4.83e-05
+Epoch 0.3947 | Step 9300 | Loss 0.0269 | LR 4.82e-05
+Epoch 0.3989 | Step 9400 | Loss 0.0269 | LR 4.82e-05
+Epoch 0.4032 | Step 9500 | Loss 0.0269 | LR 4.82e-05
+Epoch 0.4074 | Step 9600 | Loss 0.0269 | LR 4.82e-05
+Epoch 0.4117 | Step 9700 | Loss 0.0268 | LR 4.81e-05
+Epoch 0.4159 | Step 9800 | Loss 0.0268 | LR 4.81e-05
+Epoch 0.4201 | Step 9900 | Loss 0.0268 | LR 4.81e-05
+Epoch 0.4244 | Step 10000 | Loss 0.0268 | LR 4.81e-05
+
+Epoch 0.4244 | Step 10000 | Validation Loss: 0.0307
+
+Epoch 0.4286 | Step 10100 | Loss 0.0268 | LR 4.81e-05
+Epoch 0.4329 | Step 10200 | Loss 0.0267 | LR 4.80e-05
+Epoch 0.4371 | Step 10300 | Loss 0.0267 | LR 4.80e-05
+Epoch 0.4414 | Step 10400 | Loss 0.0267 | LR 4.80e-05
+Epoch 0.4456 | Step 10500 | Loss 0.0267 | LR 4.80e-05
+Epoch 0.4498 | Step 10600 | Loss 0.0267 | LR 4.80e-05
+Epoch 0.4541 | Step 10700 | Loss 0.0266 | LR 4.79e-05
+Epoch 0.4583 | Step 10800 | Loss 0.0266 | LR 4.79e-05
+Epoch 0.4626 | Step 10900 | Loss 0.0266 | LR 4.79e-05
+Epoch 0.4668 | Step 11000 | Loss 0.0266 | LR 4.79e-05
+
+Epoch 0.4668 | Step 11000 | Validation Loss: 0.0348
+
+Epoch 0.4711 | Step 11100 | Loss 0.0265 | LR 4.79e-05
+Epoch 0.4753 | Step 11200 | Loss 0.0265 | LR 4.78e-05
+Epoch 0.4796 | Step 11300 | Loss 0.0265 | LR 4.78e-05
+Epoch 0.4838 | Step 11400 | Loss 0.0265 | LR 4.78e-05
+Epoch 0.4880 | Step 11500 | Loss 0.0264 | LR 4.78e-05
+Epoch 0.4923 | Step 11600 | Loss 0.0264 | LR 4.77e-05
+Epoch 0.4965 | Step 11700 | Loss 0.0264 | LR 4.77e-05
+Epoch 0.5008 | Step 11800 | Loss 0.0264 | LR 4.77e-05
+Epoch 0.5050 | Step 11900 | Loss 0.0264 | LR 4.77e-05
+Epoch 0.5093 | Step 12000 | Loss 0.0263 | LR 4.77e-05
+
+Epoch 0.5093 | Step 12000 | Validation Loss: 0.0242
+
+Epoch 0.5135 | Step 12100 | Loss 0.0263 | LR 4.76e-05
+Epoch 0.5177 | Step 12200 | Loss 0.0263 | LR 4.76e-05
+Epoch 0.5220 | Step 12300 | Loss 0.0263 | LR 4.76e-05
+Epoch 0.5262 | Step 12400 | Loss 0.0262 | LR 4.76e-05
+Epoch 0.5305 | Step 12500 | Loss 0.0262 | LR 4.76e-05
+Epoch 0.5347 | Step 12600 | Loss 0.0262 | LR 4.75e-05
+Epoch 0.5390 | Step 12700 | Loss 0.0262 | LR 4.75e-05
+Epoch 0.5432 | Step 12800 | Loss 0.0262 | LR 4.75e-05
+Epoch 0.5475 | Step 12900 | Loss 0.0262 | LR 4.75e-05
+Epoch 0.5517 | Step 13000 | Loss 0.0261 | LR 4.74e-05
+
+Epoch 0.5517 | Step 13000 | Validation Loss: 0.0285
+
+Epoch 0.5559 | Step 13100 | Loss 0.0261 | LR 4.74e-05
+Epoch 0.5602 | Step 13200 | Loss 0.0261 | LR 4.74e-05
+Epoch 0.5644 | Step 13300 | Loss 0.0261 | LR 4.74e-05
+Epoch 0.5687 | Step 13400 | Loss 0.0261 | LR 4.74e-05
+Epoch 0.5729 | Step 13500 | Loss 0.0261 | LR 4.73e-05
+Epoch 0.5772 | Step 13600 | Loss 0.0260 | LR 4.73e-05
+Epoch 0.5814 | Step 13700 | Loss 0.0260 | LR 4.73e-05
+Epoch 0.5857 | Step 13800 | Loss 0.0260 | LR 4.73e-05
+Epoch 0.5899 | Step 13900 | Loss 0.0260 | LR 4.73e-05
+Epoch 0.5941 | Step 14000 | Loss 0.0260 | LR 4.72e-05
+
+Epoch 0.5941 | Step 14000 | Validation Loss: 0.0300
+
+Epoch 0.5984 | Step 14100 | Loss 0.0259 | LR 4.72e-05
+Epoch 0.6026 | Step 14200 | Loss 0.0259 | LR 4.72e-05
+Epoch 0.6069 | Step 14300 | Loss 0.0259 | LR 4.72e-05
+Epoch 0.6111 | Step 14400 | Loss 0.0259 | LR 4.71e-05
+Epoch 0.6154 | Step 14500 | Loss 0.0259 | LR 4.71e-05
+Epoch 0.6196 | Step 14600 | Loss 0.0259 | LR 4.71e-05
+Epoch 0.6238 | Step 14700 | Loss 0.0258 | LR 4.71e-05
+Epoch 0.6281 | Step 14800 | Loss 0.0258 | LR 4.71e-05
+Epoch 0.6323 | Step 14900 | Loss 0.0258 | LR 4.70e-05
+Epoch 0.6366 | Step 15000 | Loss 0.0258 | LR 4.70e-05
+
+Epoch 0.6366 | Step 15000 | Validation Loss: 0.0252
+
+Epoch 0.6408 | Step 15100 | Loss 0.0258 | LR 4.70e-05
+Epoch 0.6451 | Step 15200 | Loss 0.0258 | LR 4.70e-05
+Epoch 0.6493 | Step 15300 | Loss 0.0257 | LR 4.70e-05
+Epoch 0.6536 | Step 15400 | Loss 0.0257 | LR 4.69e-05
+Epoch 0.6578 | Step 15500 | Loss 0.0257 | LR 4.69e-05
+Epoch 0.6620 | Step 15600 | Loss 0.0257 | LR 4.69e-05
+Epoch 0.6663 | Step 15700 | Loss 0.0257 | LR 4.69e-05
+Epoch 0.6705 | Step 15800 | Loss 0.0256 | LR 4.68e-05
+Epoch 0.6748 | Step 15900 | Loss 0.0256 | LR 4.68e-05
+Epoch 0.6790 | Step 16000 | Loss 0.0256 | LR 4.68e-05
+
+Epoch 0.6790 | Step 16000 | Validation Loss: 0.0259
+
+Epoch 0.6833 | Step 16100 | Loss 0.0256 | LR 4.68e-05
+Epoch 0.6875 | Step 16200 | Loss 0.0256 | LR 4.68e-05
+Epoch 0.6917 | Step 16300 | Loss 0.0255 | LR 4.67e-05
+Epoch 0.6960 | Step 16400 | Loss 0.0255 | LR 4.67e-05
+Epoch 0.7002 | Step 16500 | Loss 0.0255 | LR 4.67e-05
+Epoch 0.7045 | Step 16600 | Loss 0.0255 | LR 4.67e-05
+Epoch 0.7087 | Step 16700 | Loss 0.0255 | LR 4.67e-05
+Epoch 0.7130 | Step 16800 | Loss 0.0254 | LR 4.66e-05
+Epoch 0.7172 | Step 16900 | Loss 0.0254 | LR 4.66e-05
+Epoch 0.7215 | Step 17000 | Loss 0.0254 | LR 4.66e-05
+
+Epoch 0.7215 | Step 17000 | Validation Loss: 0.0262
+
+Epoch 0.7257 | Step 17100 | Loss 0.0254 | LR 4.66e-05
+Epoch 0.7299 | Step 17200 | Loss 0.0254 | LR 4.66e-05
+Epoch 0.7342 | Step 17300 | Loss 0.0253 | LR 4.65e-05
+Epoch 0.7384 | Step 17400 | Loss 0.0253 | LR 4.65e-05
+Epoch 0.7427 | Step 17500 | Loss 0.0253 | LR 4.65e-05
+Epoch 0.7469 | Step 17600 | Loss 0.0253 | LR 4.65e-05
+Epoch 0.7512 | Step 17700 | Loss 0.0253 | LR 4.64e-05
+Epoch 0.7554 | Step 17800 | Loss 0.0253 | LR 4.64e-05
+Epoch 0.7596 | Step 17900 | Loss 0.0252 | LR 4.64e-05
+Epoch 0.7639 | Step 18000 | Loss 0.0252 | LR 4.64e-05
+
+Epoch 0.7639 | Step 18000 | Validation Loss: 0.0234
+
+Epoch 0.7681 | Step 18100 | Loss 0.0252 | LR 4.64e-05
+Epoch 0.7724 | Step 18200 | Loss 0.0252 | LR 4.63e-05
+Epoch 0.7766 | Step 18300 | Loss 0.0252 | LR 4.63e-05
+Epoch 0.7809 | Step 18400 | Loss 0.0251 | LR 4.63e-05
+Epoch 0.7851 | Step 18500 | Loss 0.0251 | LR 4.63e-05
+Epoch 0.7894 | Step 18600 | Loss 0.0251 | LR 4.63e-05
+Epoch 0.7936 | Step 18700 | Loss 0.0251 | LR 4.62e-05
+Epoch 0.7978 | Step 18800 | Loss 0.0251 | LR 4.62e-05
+Epoch 0.8021 | Step 18900 | Loss 0.0250 | LR 4.62e-05
+Epoch 0.8063 | Step 19000 | Loss 0.0250 | LR 4.62e-05
+
+Epoch 0.8063 | Step 19000 | Validation Loss: 0.0260
+
+Epoch 0.8106 | Step 19100 | Loss 0.0250 | LR 4.61e-05
+Epoch 0.8148 | Step 19200 | Loss 0.0250 | LR 4.61e-05
+Epoch 0.8191 | Step 19300 | Loss 0.0250 | LR 4.61e-05
+Epoch 0.8233 | Step 19400 | Loss 0.0250 | LR 4.61e-05
+Epoch 0.8276 | Step 19500 | Loss 0.0249 | LR 4.61e-05
+Epoch 0.8318 | Step 19600 | Loss 0.0249 | LR 4.60e-05
+Epoch 0.8360 | Step 19700 | Loss 0.0249 | LR 4.60e-05
+Epoch 0.8403 | Step 19800 | Loss 0.0249 | LR 4.60e-05
+Epoch 0.8445 | Step 19900 | Loss 0.0249 | LR 4.60e-05
+Epoch 0.8488 | Step 20000 | Loss 0.0248 | LR 4.60e-05
+
+Epoch 0.8488 | Step 20000 | Validation Loss: 0.0238
+
+Epoch 0.8530 | Step 20100 | Loss 0.0248 | LR 4.59e-05
+Epoch 0.8573 | Step 20200 | Loss 0.0248 | LR 4.59e-05
+Epoch 0.8615 | Step 20300 | Loss 0.0248 | LR 4.59e-05
+Epoch 0.8657 | Step 20400 | Loss 0.0248 | LR 4.59e-05
+Epoch 0.8700 | Step 20500 | Loss 0.0248 | LR 4.58e-05
+Epoch 0.8742 | Step 20600 | Loss 0.0247 | LR 4.58e-05
+Epoch 0.8785 | Step 20700 | Loss 0.0247 | LR 4.58e-05
+Epoch 0.8827 | Step 20800 | Loss 0.0247 | LR 4.58e-05
+Epoch 0.8870 | Step 20900 | Loss 0.0247 | LR 4.58e-05
+Epoch 0.8912 | Step 21000 | Loss 0.0246 | LR 4.57e-05
+
+Epoch 0.8912 | Step 21000 | Validation Loss: 0.0256
+
+Epoch 0.8955 | Step 21100 | Loss 0.0246 | LR 4.57e-05
+Epoch 0.8997 | Step 21200 | Loss 0.0246 | LR 4.57e-05
+Epoch 0.9039 | Step 21300 | Loss 0.0246 | LR 4.57e-05
+Epoch 0.9082 | Step 21400 | Loss 0.0246 | LR 4.57e-05
+Epoch 0.9124 | Step 21500 | Loss 0.0246 | LR 4.56e-05
+Epoch 0.9167 | Step 21600 | Loss 0.0245 | LR 4.56e-05
+Epoch 0.9209 | Step 21700 | Loss 0.0245 | LR 4.56e-05
+Epoch 0.9252 | Step 21800 | Loss 0.0245 | LR 4.56e-05
+Epoch 0.9294 | Step 21900 | Loss 0.0245 | LR 4.55e-05
+Epoch 0.9336 | Step 22000 | Loss 0.0245 | LR 4.55e-05
+
+Epoch 0.9336 | Step 22000 | Validation Loss: 0.0233
+
+Epoch 0.9379 | Step 22100 | Loss 0.0245 | LR 4.55e-05
+Epoch 0.9421 | Step 22200 | Loss 0.0244 | LR 4.55e-05
+Epoch 0.9464 | Step 22300 | Loss 0.0244 | LR 4.55e-05
+Epoch 0.9506 | Step 22400 | Loss 0.0244 | LR 4.54e-05
+Epoch 0.9549 | Step 22500 | Loss 0.0244 | LR 4.54e-05
+Epoch 0.9591 | Step 22600 | Loss 0.0244 | LR 4.54e-05
+Epoch 0.9634 | Step 22700 | Loss 0.0243 | LR 4.54e-05
+Epoch 0.9676 | Step 22800 | Loss 0.0243 | LR 4.54e-05
+Epoch 0.9718 | Step 22900 | Loss 0.0243 | LR 4.53e-05
+Epoch 0.9761 | Step 23000 | Loss 0.0243 | LR 4.53e-05
+
+Epoch 0.9761 | Step 23000 | Validation Loss: 0.0215 (New Best!)
+
+Epoch 0.9803 | Step 23100 | Loss 0.0243 | LR 4.53e-05
+Epoch 0.9846 | Step 23200 | Loss 0.0243 | LR 4.53e-05
+Epoch 0.9888 | Step 23300 | Loss 0.0242 | LR 4.53e-05
+Epoch 0.9931 | Step 23400 | Loss 0.0242 | LR 4.52e-05
+Epoch 0.9973 | Step 23500 | Loss 0.0242 | LR 4.52e-05
+
+Epoch 1.0000 | End of Epoch | Validation Loss: 0.0190 (New Best!)
+
+Epoch 1.0016 | Step 23600 | Loss 0.0186 | LR 4.52e-05
+Epoch 1.0058 | Step 23700 | Loss 0.0196 | LR 4.52e-05
+Epoch 1.0101 | Step 23800 | Loss 0.0194 | LR 4.51e-05
+Epoch 1.0143 | Step 23900 | Loss 0.0194 | LR 4.51e-05
+Epoch 1.0185 | Step 24000 | Loss 0.0192 | LR 4.51e-05
+
+Epoch 1.0185 | Step 24000 | Validation Loss: 0.0225
+
+Epoch 1.0228 | Step 24100 | Loss 0.0193 | LR 4.51e-05
+Epoch 1.0270 | Step 24200 | Loss 0.0191 | LR 4.51e-05
+Epoch 1.0313 | Step 24300 | Loss 0.0191 | LR 4.50e-05
+Epoch 1.0355 | Step 24400 | Loss 0.0192 | LR 4.50e-05
+Epoch 1.0398 | Step 24500 | Loss 0.0193 | LR 4.50e-05
+Epoch 1.0440 | Step 24600 | Loss 0.0194 | LR 4.50e-05
+Epoch 1.0483 | Step 24700 | Loss 0.0194 | LR 4.50e-05
+Epoch 1.0525 | Step 24800 | Loss 0.0193 | LR 4.49e-05
+Epoch 1.0567 | Step 24900 | Loss 0.0193 | LR 4.49e-05
+Epoch 1.0610 | Step 25000 | Loss 0.0194 | LR 4.49e-05
+
+Epoch 1.0610 | Step 25000 | Validation Loss: 0.0184 (New Best!)
+
+Epoch 1.0652 | Step 25100 | Loss 0.0194 | LR 4.49e-05
+Epoch 1.0695 | Step 25200 | Loss 0.0194 | LR 4.48e-05
+Epoch 1.0737 | Step 25300 | Loss 0.0193 | LR 4.48e-05
+Epoch 1.0780 | Step 25400 | Loss 0.0192 | LR 4.48e-05
+Epoch 1.0822 | Step 25500 | Loss 0.0192 | LR 4.48e-05
+Epoch 1.0864 | Step 25600 | Loss 0.0192 | LR 4.48e-05
+Epoch 1.0907 | Step 25700 | Loss 0.0191 | LR 4.47e-05
+Epoch 1.0949 | Step 25800 | Loss 0.0191 | LR 4.47e-05
+Epoch 1.0992 | Step 25900 | Loss 0.0192 | LR 4.47e-05
+Epoch 1.1034 | Step 26000 | Loss 0.0192 | LR 4.47e-05
+
+Epoch 1.1034 | Step 26000 | Validation Loss: 0.0245
+
+Epoch 1.1077 | Step 26100 | Loss 0.0192 | LR 4.47e-05
+Epoch 1.1119 | Step 26200 | Loss 0.0191 | LR 4.46e-05
+Epoch 1.1162 | Step 26300 | Loss 0.0192 | LR 4.46e-05
+Epoch 1.1204 | Step 26400 | Loss 0.0192 | LR 4.46e-05
+Epoch 1.1246 | Step 26500 | Loss 0.0192 | LR 4.46e-05
+Epoch 1.1289 | Step 26600 | Loss 0.0192 | LR 4.45e-05
+Epoch 1.1331 | Step 26700 | Loss 0.0192 | LR 4.45e-05
+Epoch 1.1374 | Step 26800 | Loss 0.0192 | LR 4.45e-05
+Epoch 1.1416 | Step 26900 | Loss 0.0192 | LR 4.45e-05
+Epoch 1.1459 | Step 27000 | Loss 0.0192 | LR 4.45e-05
+
+Epoch 1.1459 | Step 27000 | Validation Loss: 0.0203
+
+Epoch 1.1501 | Step 27100 | Loss 0.0192 | LR 4.44e-05
+Epoch 1.1543 | Step 27200 | Loss 0.0192 | LR 4.44e-05
+Epoch 1.1586 | Step 27300 | Loss 0.0192 | LR 4.44e-05
+Epoch 1.1628 | Step 27400 | Loss 0.0192 | LR 4.44e-05
+Epoch 1.1671 | Step 27500 | Loss 0.0192 | LR 4.44e-05
+Epoch 1.1713 | Step 27600 | Loss 0.0192 | LR 4.43e-05
+Epoch 1.1756 | Step 27700 | Loss 0.0192 | LR 4.43e-05
+Epoch 1.1798 | Step 27800 | Loss 0.0192 | LR 4.43e-05
+Epoch 1.1841 | Step 27900 | Loss 0.0192 | LR 4.43e-05
+Epoch 1.1883 | Step 28000 | Loss 0.0192 | LR 4.43e-05
+
+Epoch 1.1883 | Step 28000 | Validation Loss: 0.0200
+
+Epoch 1.1925 | Step 28100 | Loss 0.0192 | LR 4.42e-05
+Epoch 1.1968 | Step 28200 | Loss 0.0192 | LR 4.42e-05
+Epoch 1.2010 | Step 28300 | Loss 0.0192 | LR 4.42e-05
+Epoch 1.2053 | Step 28400 | Loss 0.0191 | LR 4.42e-05
+Epoch 1.2095 | Step 28500 | Loss 0.0192 | LR 4.41e-05
+Epoch 1.2138 | Step 28600 | Loss 0.0191 | LR 4.41e-05
+Epoch 1.2180 | Step 28700 | Loss 0.0191 | LR 4.41e-05
+Epoch 1.2223 | Step 28800 | Loss 0.0191 | LR 4.41e-05
+Epoch 1.2265 | Step 28900 | Loss 0.0191 | LR 4.41e-05
+Epoch 1.2307 | Step 29000 | Loss 0.0191 | LR 4.40e-05
+
+Epoch 1.2307 | Step 29000 | Validation Loss: 0.0177 (New Best!)
+
+Epoch 1.2350 | Step 29100 | Loss 0.0191 | LR 4.40e-05
+Epoch 1.2392 | Step 29200 | Loss 0.0191 | LR 4.40e-05
+Epoch 1.2435 | Step 29300 | Loss 0.0191 | LR 4.40e-05
+Epoch 1.2477 | Step 29400 | Loss 0.0190 | LR 4.40e-05
+Epoch 1.2520 | Step 29500 | Loss 0.0191 | LR 4.39e-05
+Epoch 1.2562 | Step 29600 | Loss 0.0190 | LR 4.39e-05
+Epoch 1.2604 | Step 29700 | Loss 0.0190 | LR 4.39e-05
+Epoch 1.2647 | Step 29800 | Loss 0.0190 | LR 4.39e-05
+Epoch 1.2689 | Step 29900 | Loss 0.0190 | LR 4.38e-05
+Epoch 1.2732 | Step 30000 | Loss 0.0189 | LR 4.38e-05
+
+Epoch 1.2732 | Step 30000 | Validation Loss: 0.0186
+
+Epoch 1.2774 | Step 30100 | Loss 0.0189 | LR 4.38e-05
+Epoch 1.2817 | Step 30200 | Loss 0.0190 | LR 4.38e-05
+Epoch 1.2859 | Step 30300 | Loss 0.0190 | LR 4.38e-05
+Epoch 1.2902 | Step 30400 | Loss 0.0189 | LR 4.37e-05
+Epoch 1.2944 | Step 30500 | Loss 0.0189 | LR 4.37e-05
+Epoch 1.2986 | Step 30600 | Loss 0.0189 | LR 4.37e-05
+Epoch 1.3029 | Step 30700 | Loss 0.0189 | LR 4.37e-05
+Epoch 1.3071 | Step 30800 | Loss 0.0189 | LR 4.37e-05
+Epoch 1.3114 | Step 30900 | Loss 0.0189 | LR 4.36e-05
+Epoch 1.3156 | Step 31000 | Loss 0.0189 | LR 4.36e-05
+
+Epoch 1.3156 | Step 31000 | Validation Loss: 0.0202
+
+Epoch 1.3199 | Step 31100 | Loss 0.0189 | LR 4.36e-05
+Epoch 1.3241 | Step 31200 | Loss 0.0189 | LR 4.36e-05
+Epoch 1.3283 | Step 31300 | Loss 0.0189 | LR 4.35e-05
+Epoch 1.3326 | Step 31400 | Loss 0.0189 | LR 4.35e-05
+Epoch 1.3368 | Step 31500 | Loss 0.0188 | LR 4.35e-05
+Epoch 1.3411 | Step 31600 | Loss 0.0188 | LR 4.35e-05
+Epoch 1.3453 | Step 31700 | Loss 0.0188 | LR 4.35e-05
+Epoch 1.3496 | Step 31800 | Loss 0.0188 | LR 4.34e-05
+Epoch 1.3538 | Step 31900 | Loss 0.0188 | LR 4.34e-05
+Epoch 1.3581 | Step 32000 | Loss 0.0188 | LR 4.34e-05
+
+Epoch 1.3581 | Step 32000 | Validation Loss: 0.0215
+
+Epoch 1.3623 | Step 32100 | Loss 0.0188 | LR 4.34e-05
+Epoch 1.3665 | Step 32200 | Loss 0.0188 | LR 4.34e-05
+Epoch 1.3708 | Step 32300 | Loss 0.0188 | LR 4.33e-05
+Epoch 1.3750 | Step 32400 | Loss 0.0188 | LR 4.33e-05
+Epoch 1.3793 | Step 32500 | Loss 0.0188 | LR 4.33e-05
+Epoch 1.3835 | Step 32600 | Loss 0.0188 | LR 4.33e-05
+Epoch 1.3878 | Step 32700 | Loss 0.0188 | LR 4.32e-05
+Epoch 1.3920 | Step 32800 | Loss 0.0188 | LR 4.32e-05
+Epoch 1.3962 | Step 32900 | Loss 0.0188 | LR 4.32e-05
+Epoch 1.4005 | Step 33000 | Loss 0.0188 | LR 4.32e-05
+
+Epoch 1.4005 | Step 33000 | Validation Loss: 0.0210
+
+Epoch 1.4047 | Step 33100 | Loss 0.0188 | LR 4.32e-05
+Epoch 1.4090 | Step 33200 | Loss 0.0188 | LR 4.31e-05
+Epoch 1.4132 | Step 33300 | Loss 0.0188 | LR 4.31e-05
+Epoch 1.4175 | Step 33400 | Loss 0.0188 | LR 4.31e-05
+Epoch 1.4217 | Step 33500 | Loss 0.0187 | LR 4.31e-05
+Epoch 1.4260 | Step 33600 | Loss 0.0187 | LR 4.31e-05
+Epoch 1.4302 | Step 33700 | Loss 0.0187 | LR 4.30e-05
+Epoch 1.4344 | Step 33800 | Loss 0.0187 | LR 4.30e-05
+Epoch 1.4387 | Step 33900 | Loss 0.0187 | LR 4.30e-05
+Epoch 1.4429 | Step 34000 | Loss 0.0187 | LR 4.30e-05
+
+Epoch 1.4429 | Step 34000 | Validation Loss: 0.0249
+
+Epoch 1.4472 | Step 34100 | Loss 0.0187 | LR 4.30e-05
+Epoch 1.4514 | Step 34200 | Loss 0.0187 | LR 4.29e-05
+Epoch 1.4557 | Step 34300 | Loss 0.0187 | LR 4.29e-05
+Epoch 1.4599 | Step 34400 | Loss 0.0187 | LR 4.29e-05
+Epoch 1.4642 | Step 34500 | Loss 0.0187 | LR 4.29e-05
+Epoch 1.4684 | Step 34600 | Loss 0.0186 | LR 4.28e-05
+Epoch 1.4726 | Step 34700 | Loss 0.0186 | LR 4.28e-05
+Epoch 1.4769 | Step 34800 | Loss 0.0186 | LR 4.28e-05
+Epoch 1.4811 | Step 34900 | Loss 0.0186 | LR 4.28e-05
+Epoch 1.4854 | Step 35000 | Loss 0.0186 | LR 4.28e-05
+
+Epoch 1.4854 | Step 35000 | Validation Loss: 0.0180
+
+Epoch 1.4896 | Step 35100 | Loss 0.0186 | LR 4.27e-05
+Epoch 1.4939 | Step 35200 | Loss 0.0186 | LR 4.27e-05
+Epoch 1.4981 | Step 35300 | Loss 0.0186 | LR 4.27e-05
+Epoch 1.5023 | Step 35400 | Loss 0.0186 | LR 4.27e-05
+Epoch 1.5066 | Step 35500 | Loss 0.0186 | LR 4.27e-05
+Epoch 1.5108 | Step 35600 | Loss 0.0186 | LR 4.26e-05
+Epoch 1.5151 | Step 35700 | Loss 0.0186 | LR 4.26e-05
+Epoch 1.5193 | Step 35800 | Loss 0.0185 | LR 4.26e-05
+Epoch 1.5236 | Step 35900 | Loss 0.0185 | LR 4.26e-05
+Epoch 1.5278 | Step 36000 | Loss 0.0185 | LR 4.25e-05
+
+Epoch 1.5278 | Step 36000 | Validation Loss: 0.0239
+
+Epoch 1.5321 | Step 36100 | Loss 0.0185 | LR 4.25e-05
+Epoch 1.5363 | Step 36200 | Loss 0.0185 | LR 4.25e-05
+Epoch 1.5405 | Step 36300 | Loss 0.0185 | LR 4.25e-05
+Epoch 1.5448 | Step 36400 | Loss 0.0185 | LR 4.25e-05
+Epoch 1.5490 | Step 36500 | Loss 0.0185 | LR 4.24e-05
+Epoch 1.5533 | Step 36600 | Loss 0.0185 | LR 4.24e-05
+Epoch 1.5575 | Step 36700 | Loss 0.0185 | LR 4.24e-05
+Epoch 1.5618 | Step 36800 | Loss 0.0185 | LR 4.24e-05
+Epoch 1.5660 | Step 36900 | Loss 0.0185 | LR 4.24e-05
+Epoch 1.5702 | Step 37000 | Loss 0.0184 | LR 4.23e-05
+
+Epoch 1.5702 | Step 37000 | Validation Loss: 0.0283
+
+Epoch 1.5745 | Step 37100 | Loss 0.0184 | LR 4.23e-05
+Epoch 1.5787 | Step 37200 | Loss 0.0184 | LR 4.23e-05
+Epoch 1.5830 | Step 37300 | Loss 0.0184 | LR 4.23e-05
+Epoch 1.5872 | Step 37400 | Loss 0.0184 | LR 4.22e-05
+Epoch 1.5915 | Step 37500 | Loss 0.0184 | LR 4.22e-05
+Epoch 1.5957 | Step 37600 | Loss 0.0184 | LR 4.22e-05
+Epoch 1.6000 | Step 37700 | Loss 0.0184 | LR 4.22e-05
+Epoch 1.6042 | Step 37800 | Loss 0.0184 | LR 4.22e-05
+Epoch 1.6084 | Step 37900 | Loss 0.0184 | LR 4.21e-05
+Epoch 1.6127 | Step 38000 | Loss 0.0183 | LR 4.21e-05
+
+Epoch 1.6127 | Step 38000 | Validation Loss: 0.0320
+
+Epoch 1.6169 | Step 38100 | Loss 0.0183 | LR 4.21e-05
+Epoch 1.6212 | Step 38200 | Loss 0.0183 | LR 4.21e-05
+Epoch 1.6254 | Step 38300 | Loss 0.0183 | LR 4.21e-05
+Epoch 1.6297 | Step 38400 | Loss 0.0183 | LR 4.20e-05
+Epoch 1.6339 | Step 38500 | Loss 0.0183 | LR 4.20e-05
+Epoch 1.6381 | Step 38600 | Loss 0.0183 | LR 4.20e-05
+Epoch 1.6424 | Step 38700 | Loss 0.0183 | LR 4.20e-05
+Epoch 1.6466 | Step 38800 | Loss 0.0182 | LR 4.19e-05
+Epoch 1.6509 | Step 38900 | Loss 0.0182 | LR 4.19e-05
+Epoch 1.6551 | Step 39000 | Loss 0.0182 | LR 4.19e-05
+
+Epoch 1.6551 | Step 39000 | Validation Loss: 0.0162 (New Best!)
+
+Epoch 1.6594 | Step 39100 | Loss 0.0182 | LR 4.19e-05
+Epoch 1.6636 | Step 39200 | Loss 0.0182 | LR 4.19e-05
+Epoch 1.6679 | Step 39300 | Loss 0.0182 | LR 4.18e-05
+Epoch 1.6721 | Step 39400 | Loss 0.0182 | LR 4.18e-05
+Epoch 1.6763 | Step 39500 | Loss 0.0182 | LR 4.18e-05
+Epoch 1.6806 | Step 39600 | Loss 0.0182 | LR 4.18e-05
+Epoch 1.6848 | Step 39700 | Loss 0.0182 | LR 4.18e-05
+Epoch 1.6891 | Step 39800 | Loss 0.0182 | LR 4.17e-05
+Epoch 1.6933 | Step 39900 | Loss 0.0182 | LR 4.17e-05
+Epoch 1.6976 | Step 40000 | Loss 0.0182 | LR 4.17e-05
+
+Epoch 1.6976 | Step 40000 | Validation Loss: 0.0220
+
+Epoch 1.7018 | Step 40100 | Loss 0.0182 | LR 4.17e-05
+Epoch 1.7060 | Step 40200 | Loss 0.0182 | LR 4.17e-05
+Epoch 1.7103 | Step 40300 | Loss 0.0181 | LR 4.16e-05
+Epoch 1.7145 | Step 40400 | Loss 0.0181 | LR 4.16e-05
+Epoch 1.7188 | Step 40500 | Loss 0.0181 | LR 4.16e-05
+Epoch 1.7230 | Step 40600 | Loss 0.0181 | LR 4.16e-05
+Epoch 1.7273 | Step 40700 | Loss 0.0181 | LR 4.15e-05
+Epoch 1.7315 | Step 40800 | Loss 0.0181 | LR 4.15e-05
+Epoch 1.7358 | Step 40900 | Loss 0.0181 | LR 4.15e-05
+Epoch 1.7400 | Step 41000 | Loss 0.0181 | LR 4.15e-05
+
+Epoch 1.7400 | Step 41000 | Validation Loss: 0.0234
+
+Epoch 1.7442 | Step 41100 | Loss 0.0181 | LR 4.15e-05
+Epoch 1.7485 | Step 41200 | Loss 0.0180 | LR 4.14e-05
+Epoch 1.7527 | Step 41300 | Loss 0.0180 | LR 4.14e-05
+Epoch 1.7570 | Step 41400 | Loss 0.0180 | LR 4.14e-05
+Epoch 1.7612 | Step 41500 | Loss 0.0180 | LR 4.14e-05
+Epoch 1.7655 | Step 41600 | Loss 0.0180 | LR 4.14e-05
+Epoch 1.7697 | Step 41700 | Loss 0.0180 | LR 4.13e-05
+Epoch 1.7740 | Step 41800 | Loss 0.0180 | LR 4.13e-05
+Epoch 1.7782 | Step 41900 | Loss 0.0180 | LR 4.13e-05
+Epoch 1.7824 | Step 42000 | Loss 0.0180 | LR 4.13e-05
+
+Epoch 1.7824 | Step 42000 | Validation Loss: 0.0222
+
+Epoch 1.7867 | Step 42100 | Loss 0.0180 | LR 4.12e-05
+Epoch 1.7909 | Step 42200 | Loss 0.0180 | LR 4.12e-05
+Epoch 1.7952 | Step 42300 | Loss 0.0180 | LR 4.12e-05
+Epoch 1.7994 | Step 42400 | Loss 0.0179 | LR 4.12e-05
+Epoch 1.8037 | Step 42500 | Loss 0.0179 | LR 4.12e-05
+Epoch 1.8079 | Step 42600 | Loss 0.0179 | LR 4.11e-05
+Epoch 1.8121 | Step 42700 | Loss 0.0179 | LR 4.11e-05
+Epoch 1.8164 | Step 42800 | Loss 0.0179 | LR 4.11e-05
+Epoch 1.8206 | Step 42900 | Loss 0.0179 | LR 4.11e-05
+Epoch 1.8249 | Step 43000 | Loss 0.0179 | LR 4.11e-05
+
+Epoch 1.8249 | Step 43000 | Validation Loss: 0.0298
+
+Epoch 1.8291 | Step 43100 | Loss 0.0179 | LR 4.10e-05
+Epoch 1.8334 | Step 43200 | Loss 0.0179 | LR 4.10e-05
+Epoch 1.8376 | Step 43300 | Loss 0.0179 | LR 4.10e-05
+Epoch 1.8419 | Step 43400 | Loss 0.0179 | LR 4.10e-05
+Epoch 1.8461 | Step 43500 | Loss 0.0179 | LR 4.09e-05
+Epoch 1.8503 | Step 43600 | Loss 0.0178 | LR 4.09e-05
+Epoch 1.8546 | Step 43700 | Loss 0.0178 | LR 4.09e-05
+Epoch 1.8588 | Step 43800 | Loss 0.0178 | LR 4.09e-05
+Epoch 1.8631 | Step 43900 | Loss 0.0178 | LR 4.09e-05
+Epoch 1.8673 | Step 44000 | Loss 0.0178 | LR 4.08e-05
+
+Epoch 1.8673 | Step 44000 | Validation Loss: 0.0212
+
+Epoch 1.8716 | Step 44100 | Loss 0.0178 | LR 4.08e-05
+Epoch 1.8758 | Step 44200 | Loss 0.0178 | LR 4.08e-05
+Epoch 1.8800 | Step 44300 | Loss 0.0178 | LR 4.08e-05
+Epoch 1.8843 | Step 44400 | Loss 0.0178 | LR 4.08e-05
+Epoch 1.8885 | Step 44500 | Loss 0.0178 | LR 4.07e-05
+Epoch 1.8928 | Step 44600 | Loss 0.0178 | LR 4.07e-05
+Epoch 1.8970 | Step 44700 | Loss 0.0178 | LR 4.07e-05
+Epoch 1.9013 | Step 44800 | Loss 0.0177 | LR 4.07e-05
+Epoch 1.9055 | Step 44900 | Loss 0.0177 | LR 4.07e-05
+Epoch 1.9098 | Step 45000 | Loss 0.0177 | LR 4.06e-05
+
+Epoch 1.9098 | Step 45000 | Validation Loss: 0.0158 (New Best!)
+
+Epoch 1.9140 | Step 45100 | Loss 0.0177 | LR 4.06e-05
+Epoch 1.9182 | Step 45200 | Loss 0.0177 | LR 4.06e-05
+Epoch 1.9225 | Step 45300 | Loss 0.0177 | LR 4.06e-05
+Epoch 1.9267 | Step 45400 | Loss 0.0177 | LR 4.05e-05
+Epoch 1.9310 | Step 45500 | Loss 0.0177 | LR 4.05e-05
+Epoch 1.9352 | Step 45600 | Loss 0.0177 | LR 4.05e-05
+Epoch 1.9395 | Step 45700 | Loss 0.0177 | LR 4.05e-05
+Epoch 1.9437 | Step 45800 | Loss 0.0177 | LR 4.05e-05
+Epoch 1.9479 | Step 45900 | Loss 0.0176 | LR 4.04e-05
+Epoch 1.9522 | Step 46000 | Loss 0.0176 | LR 4.04e-05
+
+Epoch 1.9522 | Step 46000 | Validation Loss: 0.0162
+
+Epoch 1.9564 | Step 46100 | Loss 0.0176 | LR 4.04e-05
+Epoch 1.9607 | Step 46200 | Loss 0.0176 | LR 4.04e-05
+Epoch 1.9649 | Step 46300 | Loss 0.0176 | LR 4.04e-05
+Epoch 1.9692 | Step 46400 | Loss 0.0176 | LR 4.03e-05
+Epoch 1.9734 | Step 46500 | Loss 0.0176 | LR 4.03e-05
+Epoch 1.9777 | Step 46600 | Loss 0.0176 | LR 4.03e-05
+Epoch 1.9819 | Step 46700 | Loss 0.0176 | LR 4.03e-05
+Epoch 1.9861 | Step 46800 | Loss 0.0176 | LR 4.02e-05
+Epoch 1.9904 | Step 46900 | Loss 0.0176 | LR 4.02e-05
+Epoch 1.9946 | Step 47000 | Loss 0.0176 | LR 4.02e-05
+
+Epoch 1.9946 | Step 47000 | Validation Loss: 0.0145 (New Best!)
+
+Epoch 1.9989 | Step 47100 | Loss 0.0176 | LR 4.02e-05
+
+Epoch 2.0000 | End of Epoch | Validation Loss: 0.0193
+
+Epoch 2.0031 | Step 47200 | Loss 0.0167 | LR 4.02e-05
+Epoch 2.0074 | Step 47300 | Loss 0.0161 | LR 4.01e-05
