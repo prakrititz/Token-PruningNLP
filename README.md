@@ -2,6 +2,23 @@
 
 [![Status](https://img.shields.io/badge/Status-Implemented-green)]() [![Task](https://img.shields.io/badge/Task-Bug2Fix-blue)]() [![Language](https://img.shields.io/badge/Language-Java-orange)]() [![Model](https://img.shields.io/badge/Model-CodeT5--Base-blueviolet)]()
 
+## ⭐ Paper Attribution
+
+**This is an implementation of the CodePromptZip paper for the Bug2Fix task.**
+
+**Original Paper:**
+- **Title:** CodePromptZip: Code-specific Prompt Compression for Retrieval-Augmented Generation in Coding Tasks with LMs
+- **Authors:** 
+  - Pengfei He (University of Manitoba)
+  - Shaowei Wang (University of Manitoba)
+  - Tse-Hsun (Peter) Chen (Concordia University)
+- **Publication:** arXiv preprint arXiv:2502.14925v2 [cs.SE], April 2026
+- **Paper Link:** https://arxiv.org/abs/2502.14925
+
+**Implementation Note:** This codebase implements the CodePromptZip framework specifically for the **Bug2Fix task** (Java code defect detection and repair). The original paper covers three coding tasks (Assertion Generation, Bugs2Fix, and Code Suggestion); this implementation focuses on Bugs2Fix only.
+
+---
+
 ## Overview
 
 **CodePromptZip** is an intelligent code compression system for Retrieval-Augmented Generation (RAG) pipelines. It uses a **priority-driven, type-aware algorithm** to compress code examples while preserving semantic information critical for downstream code understanding tasks.
@@ -343,14 +360,26 @@ pip install -r requirements.txt
 
 ## Citation
 
-If you use this implementation, cite the original paper:
+If you use this implementation, please cite the original CodePromptZip paper:
 
 ```bibtex
-@article{CodePromptZip2024,
-  title={CodePromptZip: Exploring Token Pruning for Code LLM Prompts},
-  author={[Paper Authors]},
-  year={2024},
-  note={Implementation: Bug2Fix task with CodeT5-Base}
+@article{He2026CodePromptZip,
+  title={CodePromptZip: Code-specific Prompt Compression for Retrieval-Augmented Generation in Coding Tasks with LMs},
+  author={He, Pengfei and Wang, Shaowei and Chen, Tse-Hsun},
+  journal={arXiv preprint arXiv:2502.14925},
+  year={2026}
+}
+```
+
+And mention that you used this Bug2Fix implementation:
+
+```bibtex
+@software{CodePromptZip_Bug2Fix_Impl,
+  title={CodePromptZip Bug2Fix Implementation},
+  author={[Your Name]},
+  year={2026},
+  note={Implementation of CodePromptZip framework for Bug2Fix task with CodeT5-Base},
+  url={https://github.com/...}
 }
 ```
 
